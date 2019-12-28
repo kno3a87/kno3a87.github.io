@@ -7,13 +7,14 @@
 /*全体の設定
 ---------------------------------------------------------------------------*/
 html,body {
+	background-color: #70ACBC;
 	width: 100%;height: 100%;
 }
 body {
 	margin: 0px;
 	padding: 0px;
 	color: #3e6680;	/*全体の文字色*/
-	font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+	font-family: "Century Gothic", sans-serif;	/*フォント種類*/
 	font-size: 16px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
 	-webkit-text-size-adjust: none;
@@ -73,7 +74,7 @@ header {
 /*ロゴ画像設定*/
 #logo img {
 	width: 80%;	/*幅*/
-	opacity: 0.6;	/*透明度60%の事*/
+	opacity: 1.0;	/*透明度60%の事*/
 }
 
 /*メニュー
