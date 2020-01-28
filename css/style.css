@@ -6,14 +6,14 @@ html,body {
   height: 100%;
 }
 header {
+  z-index: 9999;
 	text-align: center;
   width: 100%;
 	height: 20%;
   background-color: #70acbc;
 }
-header figure img{
-	position: center;
-	width: 100%;
+header logo img{
+  height: 100%;
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {
   text-align: center;
