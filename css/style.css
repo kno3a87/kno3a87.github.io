@@ -13,7 +13,7 @@ header {
 }
 header figure img{
 	position: center;
-	width: 30%;
+	width: 100%;
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {
   text-align: center;
