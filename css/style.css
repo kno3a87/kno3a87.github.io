@@ -12,6 +12,7 @@ header {
   width: 100%;
 	height: 20%;
   background-color: #70acbc;
+  overflow:hidden;
 }
   header logo img{
     height: 100%;
@@ -23,6 +24,7 @@ h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {
   font-family: "Haettenschweiler";
   font-size: 20px;
   padding: 0px;
+  overflow:hidden;
 }
 
 p img {
