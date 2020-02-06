@@ -32,9 +32,15 @@ h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {
 	top: 20%;
 }
 
-p img {
 
+p img {
 }
+	p bold{
+		color: #ff6500;
+		font-size: 90px;
+		font-style: oblique;
+		font-weight: bold;
+	}
   p icon img{
     text-align: center;
     width: 50%;
@@ -44,8 +50,8 @@ p img {
     width: 100%;
 	}
 	p mimikopi img{
-    width: 50%;
+    width: 40%;
 	}
 	p adlib img{
-    width: 50%;
+    width: 40%;
 	}
