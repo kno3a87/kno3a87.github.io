@@ -24,7 +24,7 @@ header {
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {
   text-align: center;
   color: #4d3124;
-  font-family: "sans-serif";
+  font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
   font-size: 20px;
   padding: 0px;
 	/* ヘッダーに被らんように */
@@ -37,15 +37,15 @@ p img {
 }
   p icon img{
     text-align: center;
-    width: 30%;
+    width: 50%;
   }
 	p sep img{
 		text-align: center;
     width: 100%;
 	}
 	p mimikopi img{
-    width: 30%;
+    width: 50%;
 	}
 	p adlib img{
-    width: 30%;
+    width: 50%;
 	}
