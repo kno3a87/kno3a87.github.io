@@ -21,11 +21,23 @@ header {
     height: 100%;
   }
 
-h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {
+h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {
   text-align: center;
   color: #4d3124;
   font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
   font-size: 20px;
+	font-weight: lighter;
+  padding: 0px;
+	/* ヘッダーに被らんように */
+	position: relative;
+	top: 20%;
+}
+
+h1{
+  text-align: center;
+  color: #4d3124;
+  font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+  font-size: 30px;
   padding: 0px;
 	/* ヘッダーに被らんように */
 	position: relative;
@@ -55,3 +67,38 @@ p img {
 	p adlib img{
     width: 40%;
 	}
+
+table{
+	margin: auto;
+  border-collapse: collapse;
+	color: #4d3124;
+  border-spacing: 0;
+  width: 80%;
+}
+	table tr{
+	  border-bottom: solid 1px #eee;
+	  cursor: pointer;
+	}
+	table tr:hover{
+	  background-color: #ff6500;
+	}
+	table th,table td{
+	  width: 25%;
+	  padding: 15px 0;
+	}
+	/*
+	table td.icon{
+	  background-size: 35px;
+	  background-position: left 5px center;
+	  background-repeat: no-repeat;
+	  padding-left: 30px;
+	}
+	table td.icon.bird{
+	  background-image: url(icon-bird.png)
+	}
+	table td.icon.whale{
+	  background-image: url(icon-whale.png)
+	}
+	table td.icon.crab{
+	  background-image: url(icon-crab.png)
+	}*/
