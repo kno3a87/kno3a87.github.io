@@ -72,6 +72,12 @@ p img {
     width: 80%;
 	}
 
+p video {
+}
+	p demo video {
+		width: 50%;
+	}
+
 table{
 	margin: auto;
   border-collapse: collapse;
