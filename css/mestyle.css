@@ -122,3 +122,8 @@ table{
   .things{
     width: 60%;
   }
+  .heart{
+    color: #df5656;
+    text-align: center;
+    width: 30%;
+  }
