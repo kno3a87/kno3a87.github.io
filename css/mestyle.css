@@ -40,6 +40,9 @@ html,body {
   text-align: left;
 }
 
+a:link { color: #DDA448; }
+a:visited { color: #8D6A9F; }
+
 header{
   z-index: 9999;
 	position: sticky;
