@@ -92,10 +92,6 @@ table{
 }
 	table tr{
 	  border-bottom: solid 1px #eee;
-	  cursor: pointer;
-	}
-	table tr:hover{
-	  background-color: #ff6500;
 	}
 	table th,table td{
 	  width: 25%;
